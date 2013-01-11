@@ -43,5 +43,6 @@ public class SaveReadLaterBookmark extends Activity {
 		i.setDataAndType(intent.getData(), intent.getType());
 		
 		startActivity(i);
+		finish();
 	}
 }
